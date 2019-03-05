@@ -1,0 +1,6 @@
+5 5
+Lo#oo
+oo#oo
+o#ooo
+oo##o
+ooo#J
