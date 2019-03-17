@@ -20,11 +20,17 @@ void OldMethod() {
 	}
 
 	freopen("output.txt", "w", stdout);
-	for (j = 1; j <= m; j++) cout << ans[j] << endl;
+	for (j = 1; j <= m; j++) {
+		cout << ans[j];
+		if (j < m)
+			cout << endl;
+	}
 }
 
 
 int main() {
+	//freopen("fuli.in", "r", stdin);
+	//freopen("fuli.out", "w", stdout);
 	//OldMethod();
 	freopen("input.txt", "r", stdin);
 
@@ -35,7 +41,9 @@ int main() {
 	freopen("output.txt", "w", stdout);
 	for (j = 1; j <= m; j++) {
 		cin >> d;
-		cout << upper_bound(s, s + n, d) - s << endl;
+		cout << upper_bound(s, s + n, d) - s;
+		if (j < m)
+			cout << endl;
 	}
 
 	return 0;

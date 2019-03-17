@@ -19,7 +19,7 @@ void WordLength1(string input) {
 		}
 
 		// 由于空格而停止时
-		if (input[i] == 32||i== input.length()-1) {
+		if (input[i] == 32 && i != input.length() - 1) {
 			if (num > 0) {
 				cout << num;
 				cout << ",";
@@ -35,7 +35,7 @@ void WordLength1(string input) {
 			}
 		}
 	}
-	
+
 }
 
 // --------------------------------------------
@@ -55,8 +55,10 @@ void WordLength2(string input) {
 int main()
 {
 	string input;
+	freopen("input.txt", "r", stdin);
 	getline(cin, input);
 
+	freopen("output.txt", "w", stdout);
 	WordLength1(input);
 	//WordLength2(input);
 

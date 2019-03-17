@@ -9,6 +9,8 @@ struct student {
 
 bool compare(student x, student y)
 {
+	if (x.total == y.total&&x.chinese == y.chinese)
+		return x.id > y.id;
 	if (x.total == y.total)
 		return x.chinese > y.chinese;
 	return x.total > y.total;
