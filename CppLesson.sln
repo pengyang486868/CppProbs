@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLesson.ProbRomeoJuliet",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLesson.Prob476FileSize", "CppLesson.Prob476FileSize\CppLesson.Prob476FileSize.vcxproj", "{4D9D26FE-F1D0-486F-8FA0-8165108DA0B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLesson.Prob506ScoreAward", "CppLesson.Prob506ScoreAward\CppLesson.Prob506ScoreAward.vcxproj", "{09985B19-819C-47B8-B92E-9EC535044B88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{4D9D26FE-F1D0-486F-8FA0-8165108DA0B5}.Release|x64.Build.0 = Release|x64
 		{4D9D26FE-F1D0-486F-8FA0-8165108DA0B5}.Release|x86.ActiveCfg = Release|Win32
 		{4D9D26FE-F1D0-486F-8FA0-8165108DA0B5}.Release|x86.Build.0 = Release|Win32
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Debug|x64.ActiveCfg = Debug|x64
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Debug|x64.Build.0 = Debug|x64
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Debug|x86.ActiveCfg = Debug|Win32
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Debug|x86.Build.0 = Debug|Win32
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Release|x64.ActiveCfg = Release|x64
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Release|x64.Build.0 = Release|x64
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Release|x86.ActiveCfg = Release|Win32
+		{09985B19-819C-47B8-B92E-9EC535044B88}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
